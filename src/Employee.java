@@ -75,7 +75,7 @@ public class Employee {
                 " \n bonus = " + bonus() +
                 " \n vergi = "+ tax() +
                 "\n Maaş Artışı = "+raiseSalary()+
-                "\n Vergi ve Bonuslar ile birlikte maaş ="+ (tax()+bonus()+salary) +
+                "\n Vergi ve Bonuslar ile birlikte maaş ="+ (bonus()+salary-tax()) +
                 "\n Toplam Maaş =" + (raiseSalary()+salary+bonus())+
 
                 '}';
